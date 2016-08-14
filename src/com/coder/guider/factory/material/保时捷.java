@@ -1,4 +1,4 @@
-package com.coder.guider.factory;
+package com.coder.guider.factory.material;
 
 import com.coder.guider.factory.protrol.Car;
 
