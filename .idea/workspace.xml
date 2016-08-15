@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="42890478-86ac-4a00-804a-b5478d84e4a0" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/coder/guider/builder/Cat.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/coder/guider/builder/Dog.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/coder/guider/builder/DogBuilder.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/coder/guider/Main.java" afterPath="$PROJECT_DIR$/src/com/coder/guider/Main.java" />
-    </list>
+    <list default="true" id="42890478-86ac-4a00-804a-b5478d84e4a0" name="Default" comment="" />
     <ignored path="work.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -694,12 +688,12 @@
       <workItem from="1471097209106" duration="30000" />
       <workItem from="1471097252790" duration="1688000" />
       <workItem from="1471184274556" duration="3324000" />
-      <workItem from="1471245766013" duration="1722000" />
+      <workItem from="1471245766013" duration="1795000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17033000" />
+    <option name="totallyTimeSpent" value="17106000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="873" extended-state="6" />
