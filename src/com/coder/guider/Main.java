@@ -1,5 +1,7 @@
 package com.coder.guider;
 
+import com.coder.guider.builder.Dog;
+import com.coder.guider.builder.DogBuilder;
 import com.coder.guider.factory.CarFactory;
 import com.coder.guider.factory.protrol.Car;
 import com.coder.guider.singleton.EnumSingleton;
@@ -20,5 +22,11 @@ public class Main {
             System.out.println(type);
             car.run();
         }
+
+
+
+        // 建造者模式的使用
+        Dog dog = new DogBuilder().setName("jack").setWeight(20).create();
+
     }
 }
