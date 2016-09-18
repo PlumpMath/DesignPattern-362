@@ -1,5 +1,8 @@
 package com.coder.guider;
 
+import com.coder.guider.bridge.Drawer2;
+import com.coder.guider.bridge.Rantangle;
+import com.coder.guider.bridge.Shape;
 import com.coder.guider.builder.Dog;
 import com.coder.guider.builder.DogBuilder;
 import com.coder.guider.factory.CarFactory;
@@ -27,6 +30,16 @@ public class Main {
 
         // 建造者模式的使用
         Dog dog = new DogBuilder().setName("jack").setWeight(20).create();
+        System.out.println("  start  ");
 
+
+        new Rantangle().test();
+        System.out.println("  shape  ");
+
+
+        new Shape().test();
+
+        System.out.println("  22222  ");
+        new Rantangle().test2();
     }
 }

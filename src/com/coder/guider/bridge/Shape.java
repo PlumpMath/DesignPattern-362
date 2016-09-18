@@ -3,8 +3,37 @@ package com.coder.guider.bridge;
 /**
  * Created by apple on 16/9/7.
  */
-public interface Shape {
+public class Shape {
+    public Shape() {
+    }
 
-    protected
+    protected Drawing drawing;
+
+    public Shape(Drawing drawing) {
+        this.drawing = drawing;
+    }
+
+    public void draw() {
+    }
+
+    ;
+
+    public void drawRectangle() {
+        drawing.drawRantanle();
+    }
+
+    public void drawCircle() {
+        drawing.drawCircle();
+    }
+
+    public void test() {
+        System.out.println(this.getClass().getName());
+        System.out.println(super.getClass().getName());
+
+
+        System.out.println(this.getClass() == super.getClass());
+
+        System.out.println("   ---  ");
+    }
 
 }
