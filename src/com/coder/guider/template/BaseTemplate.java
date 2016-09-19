@@ -5,24 +5,23 @@ package com.coder.guider.template;
  */
 public abstract class BaseTemplate {
 
-    public void templetaMethod() {
-
+    public final void templetaMethod() {
         initMethod();
         hook();
         doDefault();
 
     }
 
-    public abstract void initMethod();
 
-    public final void doDefault() {
+    public  void doDefault() {
+        System.out.println(initMethod());
 
     }
-
 
     public  void hook() {
 
     }
 
+    public abstract String initMethod();
 
 }
