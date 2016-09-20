@@ -1,13 +1,11 @@
 package com.coder.guider;
 
-import com.coder.guider.bridge.Drawer2;
-import com.coder.guider.bridge.Rantangle;
-import com.coder.guider.bridge.Shape;
+import com.coder.guider.桥接_装饰者_策略_对比学习.bridge.Rantangle;
+import com.coder.guider.桥接_装饰者_策略_对比学习.bridge.Shape;
 import com.coder.guider.builder.Dog;
 import com.coder.guider.builder.DogBuilder;
 import com.coder.guider.factory.CarFactory;
 import com.coder.guider.factory.protrol.Car;
-import com.coder.guider.singleton.EnumSingleton;
 
 import java.util.Random;
 
