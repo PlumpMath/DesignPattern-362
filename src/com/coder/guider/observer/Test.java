@@ -11,5 +11,7 @@ public class Test  {
         client.register(userA);
 
         client.notifyObserver();
+
+
     }
 }
